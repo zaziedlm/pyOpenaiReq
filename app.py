@@ -5,8 +5,8 @@ import requests
 load_dotenv()
 
 api_key = os.getenv("OPENAI_API_KEY")
-url = "https://api.openai.com/v1/chat/completions"
-model = "gpt-4o-mini"
+url = os.getenv("LLM_BASE_URL") + "chat/completions"
+model = os.getenv("LLM_MODEL")
 
 
 # HTTP headers
