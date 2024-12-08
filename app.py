@@ -22,7 +22,7 @@ data = {
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "AIの可能性について教えて"}
     ],
-    "max_tokens": 100
+    "max_tokens": 1024
 }
 
 # Send request
